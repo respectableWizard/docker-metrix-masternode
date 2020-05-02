@@ -13,7 +13,7 @@ docker run \
   -p 13333:13333 \
   -v /some/directory:/metrix \
   --name=metrix \
-  guggero/metrix
+  respectablewizard/metrix
 ```
 
 This will create the folder `.metrixcore` in `/some/directory` with a bare `metrix.conf`. You might want to edit the `metrix.conf` before running the container because with the bare config file it doesn't do much, it's basically just an empty wallet.
