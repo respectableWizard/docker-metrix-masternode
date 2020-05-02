@@ -40,3 +40,4 @@ Where `<SERVER IP ADDRESS>` is the public facing IPv4 or IPv6 address that the m
 Don't forget to put your IPv6 address in brackets! For example `[aaaa:bbbb:cccc::0]:51472`
 
 `<MASTERNODE PRIVATE KEY>` is the private key that you generated earlier (with `metrix-cli masternode genkey`).
+
