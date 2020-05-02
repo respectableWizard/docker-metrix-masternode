@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-USER=linda
+USER=metrix
 
 chown -R ${USER} .
 exec gosu ${USER} "$@"
@@ -18,7 +18,7 @@ exec gosu ${USER} "$@"
 # # Otherwise it loops forever, waking up every 60 seconds
 
 # while sleep 60; do
-#     ps aux |grep linda |grep -q -v grep
+#     ps aux |grep metrix |grep -q -v grep
 #     PROCESS_1_STATUS=$?
 #     # If the greps above find anything, they exit with 0 status
 #     # If they are not both 0, then something is wrong
